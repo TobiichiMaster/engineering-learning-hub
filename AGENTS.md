@@ -52,9 +52,9 @@
 
 ## Space、GitHub 与安全操作
 
-Space 是课程、规范、笔记、日志、验收记录等学习文档的权威来源，Dashboard 汇总进度。GitHub 私有仓库是练习、项目和实验代码的权威来源，也保留 Space → GitHub 的单向 Markdown 快照。`docs/` 的备份以 [SPACE_INDEX.md](SPACE_INDEX.md) 和 [manifest](metadata/space-backup-manifest.json) 追溯，页正文依 Space 对照。根目录的 LEARNING_STATE.md 是 Git/Codex 会话使用的动态恢复指针。归档后核对 Space 的学习记录和进度，备份可用后再更新本地指针。Space 读不到时以最近成功备份恢复可确认的内容，记录时间和待核事项。禁止把本地修改视为已回写 Space。
+Space 是课程、规范、笔记、日志、验收记录等学习文档的权威来源，Dashboard 汇总进度。GitHub 公开仓库是练习、项目和实验代码的权威来源，也保留 Space → GitHub 的单向 Markdown 快照。`docs/` 的备份以 [SPACE_INDEX.md](SPACE_INDEX.md) 和 [manifest](metadata/space-backup-manifest.json) 追溯，页正文依 Space 对照。根目录的 LEARNING_STATE.md 是 Git/Codex 会话使用的动态恢复指针。归档后核对 Space 的学习记录和进度，备份可用后再更新本地指针。Space 读不到时以最近成功备份恢复可确认的内容，记录时间和待核事项。禁止把本地修改视为已回写 Space。
 
-每次修改前检查工作树、当前分支、上游和远程。发现未提交修改、冲突、远端分叉或权限问题，先报告并保护用户文件。仅暂存本次授权范围内的文件，提交前检查 staged diff、敏感信息和大文件，推送前确认目标仍为 Private 以及账号有权写入。禁止提交或上传 API Key、令牌、SSH 私钥、密码、私人服务器配置和含敏感信息的日志。配置样例仅用占位符。公开仓库、强制推送、破坏性重置、删除用户文件需明确授权。完成操作后核对提交并从远端读回。
+每次修改前检查工作树、当前分支、上游和远程。发现未提交修改、冲突、远端分叉或权限问题，先报告并保护用户文件。仅暂存本次授权范围内的文件，提交前检查 staged diff、敏感信息和大文件，推送前确认远程目标以及账号有权写入。仓库保持 Public，每次提交必须检查敏感信息；禁止提交或上传 API Key、Access Token、SSH 私钥、密码、个人账号凭据、私人服务器地址及敏感配置、含真实凭据的 .env，以及包含上述信息的日志、配置和备份。配置样例仅用占位符。默认禁止强制推送；破坏性重置、删除用户文件需明确授权。完成操作后核对提交并从远端读回。
 
 ## 跨设备恢复协议
 

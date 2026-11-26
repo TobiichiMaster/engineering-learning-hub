@@ -4,7 +4,7 @@
 
 # 知识管理规范 v1.0
 
-创建/更新：2026-11-26。适用 Engineering Learning Hub。依据[课程设计规范](https://chatgpt.com/space/page_d84feb3dc3008191a46d57b9e70a195a)与[能力基线](https://chatgpt.com/space/page_b45ee1d876008191ab465e60cc7b44ba)。Space 当前是学习文档权威来源；GitHub 接入后另定代码与 Markdown 同步方向，不假设双向同步。
+创建/更新：2026-11-26。适用 Engineering Learning Hub。依据[课程设计规范](https://chatgpt.com/space/page_d84feb3dc3008191a46d57b9e70a195a)与[能力基线](https://chatgpt.com/space/page_b45ee1d876008191ab465e60cc7b44ba)。Space 当前是学习文档权威来源；GitHub 公开仓库是练习、项目和实验代码的权威来源；学习文档按 Space → GitHub 单向备份，不假设双向同步。本段为本地规范更新，Space 原页待同步核对。
 
 # 1. 分类与职责
 
@@ -63,7 +63,7 @@
 
 # 6. 版本与安全
 
-规范/课程采用 v主版本.次版本：结构或目标重大变化升主版本，增量内容升次版本；普通笔记记录修订日期及简短变更。不得在笔记、代码示例或公开网站存放 API Key、SSH 私钥、密码、私人数据；示例使用占位符。GitHub 私有仓库及跨设备同步尚待 Phase 04 验证；发布网站前核对访问权限和数据范围。
+规范/课程采用 v主版本.次版本：结构或目标重大变化升主版本，增量内容升次版本；普通笔记记录修订日期及简短变更。不得在笔记、代码示例或公开网站存放 API Key、SSH 私钥、密码、私人数据；示例使用占位符。GitHub 公开仓库已接入，第二台设备同步尚待 Phase 04 验证；发布网站前核对访问权限和数据范围。
 
 # 7. 最小归档检查
 
