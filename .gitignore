@@ -221,3 +221,67 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Engineering Learning Hub: local tools, temporary data and logs
+.venv/
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+logs/
+*.log.*
+/.vscode/*
+!/.vscode/settings.json
+!/.vscode/launch.json
+
+# Private configuration and credentials
+.env.*
+!.env.example
+!.env.*.example
+secrets/
+credentials/
+*.local.json
+*.local.toml
+*.local.yaml
+*.local.yml
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.kdbx
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+credentials.json
+secrets.json
+secrets.toml
+
+# Model weights and generated binaries
+*.safetensors
+*.gguf
+*.ggml
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.h5
+*.tflite
+*.bin
+*.dll
+*.exe
+*.dylib
+*.msi
+*.o
+*.obj
+*.class
+*.jar
+*.war
+*.zip
+*.7z
+*.tar
+*.gz
